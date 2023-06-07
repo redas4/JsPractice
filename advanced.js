@@ -100,18 +100,18 @@
 
 //  ************************************
 //Classes
-class Person {
-    constructor(fname, lname){
-        this.firstName = fname
-        this.lastName = lname
-    }
-    sayMyName(){
-        return this.firstName + ' ' + this.lastName
-    }
-}
+// class Person {
+//     constructor(fname, lname){
+//         this.firstName = fname
+//         this.lastName = lname
+//     }
+//     sayMyName(){
+//         return this.firstName + ' ' + this.lastName
+//     }
+// }
 
-const p1 = new Person('Bruce', 'Wayne')
-console.log(p1.sayMyName())
+// const p1 = new Person('Bruce', 'Wayne')
+// console.log(p1.sayMyName())
 
 
 
