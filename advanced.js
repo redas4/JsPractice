@@ -114,6 +114,44 @@
 // console.log(p1.sayMyName())
 
 
+// class Superhero extends Person{
+//     constructor(fname, lname){
+//         super(fname,lname)
+//         this.isSuperHero = true
+//     }
+//     fightCrime(){
+//         console.log('Fighting Crime')
+//     }
+// }
+// const p2 = new Superhero('Clark', 'Batman')
+// console.log(p2.sayMyName())
+
+// *************************************
+//Iterators and Iterables
+//Strings, arrays, maps and sets have iterators built in
+//But if we want to iterate through a different object
+//we must implement our own method of iteration
+
+// *********************
+//Generators
+// function normal(){
+//     console.log('Hello')
+//     console.log('World')
+// }
+// normal()
+// normal()
+//
+// function* generatorFunction(){
+//     yield 'Hello'
+//     yield 'World'
+// }
+// const generatorObject = generatorFunction() //this object works as an iterator
+// for (const word of generatorObject){
+//     console.log(word)
+// }
+
+
+
 
 
 
